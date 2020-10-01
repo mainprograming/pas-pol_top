@@ -1,0 +1,308 @@
+* {
+ list-style: none;
+ text-decoration: none;
+}
+
+header {
+ position: relative;
+}
+
+header a {
+  color: white;
+}
+
+#slick01 {
+ background-size: cover;
+ width: 100%;
+ height: 300px;
+ margin: 0 auto;
+ border-radius: 0 0 500% 500% / 0 0 240px 240px;
+}
+
+#slick01 {
+ background-image: url('file:///C:/Users/%E7%9B%B8%E9%A6%AC%E6%98%A5%E8%B2%B4/Desktop/Programing/html/Visual%20Studio%20Code/1.code%E7%B7%B4%E7%BF%92/5.HP%E5%9E%8B/PAS-POL/about/photo/photo-Large/Large02.jpg');
+}
+
+nav {
+ position: absolute;
+ top: 36px;
+ left: 7.5%;
+ display: flex;
+ width: 85%;
+ align-items: center;
+ justify-content: space-between;
+ z-index: 10;
+}
+
+.haeder-logo {
+ display: flex;
+ align-items: center;
+}
+
+.fa-reddit {
+ display: block;
+ font-size: 72px;
+ padding-right: 20px;
+}
+
+.header-logo-name h1 {
+ font-size: 28px;
+}
+
+.header-logo-name h2 {
+ font-size: 10px;
+ padding-top: 10px;
+}
+
+.haeder-logo li {
+ padding: 0 22px;
+ font-size: 14px;
+}
+
+.haeder-logo li a {
+ position: relative;
+ display: inline-block;
+}
+
+.haeder-logo li a::after {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  background-color: white;
+}
+
+.haeder-logo li a:hover::after {
+  bottom: -10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.about {
+  background-color: #EEEEEE;
+}
+
+.about-contents {
+  width: 64%;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-head {
+  font-size: 36px;
+  text-align: left;
+  font-family: serif;
+  margin: 50px 0;
+}
+
+.about-contents img {
+  width: 60%;
+  height: 340px;
+  margin: 50px 0;
+}
+
+.about-text {
+  text-align: left;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: serif;
+}
+
+.about-content {
+  background-color: white;
+  padding: 0 50px;
+  display: flex;
+}
+
+.about-content-right {
+  text-align: left;
+  padding: 50px 0 0 20px;
+  position: relative;
+}
+
+.about-content-right h1 {
+  font-size: 20px;
+}
+
+.about-content-right p {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 20px 0;
+}
+
+.about-content-right a {
+  padding: 15px 30px;
+  border: 1px solid black;
+  color: black;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.about-content-right a:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-content-right span {
+  padding-left: 20px;
+}
+
+
+
+.about-content img {
+  width: 40%;
+  height: 20%;
+}
+
+.news {
+  position: relative;
+}
+
+.back {
+  background-color: #EEEEEE;
+  padding: 80px 0;
+}
+
+.back-btn {
+  color: #000000;
+  padding: 15px 20px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
+  transition: .3s;
+  width: 13%;
+  margin: 0 auto;
+}
+
+.back-btn h1 {
+  padding: 0 30px;
+}
+
+.back-btn:hover ,#back-btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#top-scroll {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  position: absolute;
+  right: 47%;
+  bottom: 180px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#top-scroll:hover {
+  transform: translateY(-10px);
+}
+
+.sns {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.sns a {
+  padding: 10px;
+  font-size: 14px;
+  margin: 15px;
+  transition: .3s;
+}
+
+#facebook {
+  border: 1px solid #0066FF;
+  color: #0066FF;
+}
+
+#twitter  {
+  border: 1px solid #88FFFF;
+  color: #88FFFF;
+}
+
+#bookmark {
+  border: 1px solid #00EE00;
+  color: #00EE00;
+}
+
+#facebook:hover {
+  background-color: #0066FF;
+  color: white;
+}
+
+#twitter:hover {
+  background-color: #88FFFF;
+  color: white;
+}
+
+#bookmark:hover {
+  background-color: #00EE00;
+  color: white;
+}
+
+.main-nav {
+  background-color: #BBBBBB;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-nav ul {
+  display: flex;
+  padding: 30px 0;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  color: white;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #777777;
+  padding: 30px 0;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-contents {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left p {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.footer-left:hover {
+  opacity: 0.6;
+}
+
+.footer-right p {
+  font-size: 8px;
+}
